@@ -1,0 +1,61 @@
+1) Fix the bugs in below snippet
+
+ <html lang="en">
+    <head>
+        <title>Document
+            <body>           // Body must always start after the closing tag for head
+                guvi         // These two lines must be shifted below
+        </title>
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+
+2) Try the below one
+
+    <html lang="en">
+    <head>
+        <title>Document
+            <body>                 // Body must always start after the closing tag for head 
+                guvi               // These two lines must be shifted below
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+
+9) Write HTML input tags snippet to show default values for all Form elements.
+
+<form action="" method="">
+<label for=""></label>
+<input type="text">
+<input type="submit">
+<input type="reset">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="search">
+<input type="tel">
+<input type="time">
+<input type="url">
+<input type="week">
+</form>
